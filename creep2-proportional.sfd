@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1744301099
-ModificationTime: 1744303502
+ModificationTime: 1744307606
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -42,9 +42,9 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8610 82 23
+WinInfo: 7626 82 23
 OnlyBitmaps: 1
-BeginChars: 65536 509
+BeginChars: 65536 520
 
 StartChar: space
 Encoding: 32 32 0
@@ -2216,7 +2216,7 @@ EndChar
 
 StartChar: emdash
 Encoding: 8212 8212 271
-Width: 545
+Width: 1000
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -4116,8 +4116,96 @@ Width: 1000
 VWidth: 0
 LayerCount: 2
 EndChar
+
+StartChar: uni2000
+Encoding: 8192 8192 509
+Width: 454
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2001
+Encoding: 8193 8193 510
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2002
+Encoding: 8194 8194 511
+Width: 454
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2003
+Encoding: 8195 8195 512
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2004
+Encoding: 8196 8196 513
+Width: 363
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2005
+Encoding: 8197 8197 514
+Width: 272
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2006
+Encoding: 8198 8198 515
+Width: 181
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2007
+Encoding: 8199 8199 516
+Width: 454
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2008
+Encoding: 8200 8200 517
+Width: 272
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2009
+Encoding: 8201 8201 518
+Width: 181
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni200A
+Encoding: 8202 8202 519
+Width: 90
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 509 9 2 1 romeovs
+BitmapFont: 11 520 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-romeovs-creep2-medium-r-normal--11-110-75-75-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -4702,8 +4790,8 @@ BDFChar: 269 8210 5 0 3 3 3
 n,NFg
 BDFChar: 270 8211 5 0 3 2 2
 n,NFg
-BDFChar: 271 8212 6 0 4 2 2
-p](9o
+BDFChar: 271 8212 11 1 8 2 2
+rr<$!
 BDFChar: 272 8213 6 0 4 2 2
 p](9o
 BDFChar: 273 8214 5 1 3 0 6
@@ -5177,6 +5265,28 @@ BDFChar: 506 61679 5 1 3 -1 5
 BDFChar: 507 61680 5 0 2 -1 5
 5_&iB!.[<7
 BDFChar: 508 8207 11 0 0 0 0
+z
+BDFChar: 509 8192 5 4 4 -2 -2
+z
+BDFChar: 510 8193 11 10 10 -2 -2
+z
+BDFChar: 511 8194 5 4 4 -2 -2
+z
+BDFChar: 512 8195 11 3 3 -2 -2
+z
+BDFChar: 513 8196 4 3 3 -2 -2
+z
+BDFChar: 514 8197 3 2 2 -2 -2
+z
+BDFChar: 515 8198 2 1 1 -2 -2
+z
+BDFChar: 516 8199 5 1 1 -2 -2
+z
+BDFChar: 517 8200 3 1 1 -2 -2
+z
+BDFChar: 518 8201 2 1 1 -2 -2
+z
+BDFChar: 519 8202 1 0 0 -2 -2
 z
 EndBitmapFont
 EndSplineFont
